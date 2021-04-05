@@ -1,0 +1,65 @@
+html, body{
+    background-color: #324053;
+    height: 100%;
+    
+}
+p {
+    display: inline;
+    color: lightblue;
+    opacity: 0.5;
+    font-size: xx-small;
+}
+.box{
+    border:linen;
+}
+.maxHeight{
+    height: 100%;
+}
+.recuadro {
+    background-color: white;
+    width: fit-content;
+    height: 70px;
+    border-radius: 7%;
+}
+.my-text{
+    color: lightblue;
+    font-size: x-large;
+}
+.line{
+    border: 2px solid grey;
+    position: absolute;
+    display: none;
+}
+.hor{
+    width: 100%;
+    height: 0;
+}
+.up{
+    top: 0;
+    left: 0;
+}
+.down{
+    top: 99%;
+    left: 0;
+}
+.ver{
+    width: 0;
+    height: 100%;
+}
+.left{
+    top: 0;
+    left:0;
+}
+.right{
+    top: 0;
+    left: 99%;
+}
+#frame{
+    padding-top: 3%;
+    padding-bottom: 1%;
+    padding-right: 1%;
+    padding-left: 1%;
+    width: 20%;
+    background-color: rgb(100, 100, 100,0.2);
+    position: relative;
+}

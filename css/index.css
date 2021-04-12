@@ -1,7 +1,11 @@
-html, body{
-    background-color: #324053;
+html{
+    height: 100%;  
+}
+body{
     height: 100%;
-    
+    background-image:url("../resources/bg7.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 p {
     display: inline;
@@ -9,37 +13,46 @@ p {
     opacity: 0.5;
     font-size: xx-small;
 }
+.red-sq{
+    background-color: black;
+    height: 500px;
+    width: 500px;
+}
+.down{
+    top: 99%;
+    left: 0;
+}
 .box{
     border:linen;
 }
-.maxHeight{
-    height: 100%;
+.hor{
+    width: 100%;
+    height: 0;
 }
-.recuadro {
-    background-color: white;
-    width: fit-content;
+.introBtn{
+    width: 100%;
     height: 70px;
-    border-radius: 7%;
-}
-.my-text{
-    color: lightblue;
-    font-size: x-large;
 }
 .line{
     border: 2px solid grey;
     position: absolute;
     display: none;
 }
-.hor{
-    width: 100%;
-    height: 0;
+.maxHeight{
+    height: 100%;
+}
+.my-text{
+    color: lightblue;
+    font-size: x-large;
+}
+.recuadro {
+    background-color: white;
+    width: fit-content;
+    height: 70px;
+    border-radius: 12%;
 }
 .up{
     top: 0;
-    left: 0;
-}
-.down{
-    top: 99%;
     left: 0;
 }
 .ver{
@@ -49,6 +62,10 @@ p {
 .left{
     top: 0;
     left:0;
+}
+.outer-cmd{
+    background-color: white;
+    height: 100%;
 }
 .right{
     top: 0;
@@ -60,6 +77,7 @@ p {
     padding-right: 1%;
     padding-left: 1%;
     width: 20%;
+    height: min-content;
     background-color: rgb(100, 100, 100,0.2);
     position: relative;
 }

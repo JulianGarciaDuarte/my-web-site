@@ -19,6 +19,7 @@ function anim_buttons(){
         }
     });
 
+    //Hace la animación de fade in de los botones con un retraso de 300 milisegundos entre cada uno
     let index = 0;
     let fade_anim = setInterval(function() {
         if(index < ids.length){
@@ -29,16 +30,9 @@ function anim_buttons(){
             clearInterval(fade_anim);
         }
     }, 300)
-    // setTimeout(function(){
-    //     $(".line").each(function(){
-    //         setVisible($(this), 1000);
-    //         $(this).hide();
-    //         $(this).show(1000);
-    //     })
-        
-    // }, 900);
+
+    //La animación del contenedor de los botones
     $(".line").each(function(){
-        //setVisible($(this), 1000);
         $(this).hide();
         $(this).show(1300);
     })
